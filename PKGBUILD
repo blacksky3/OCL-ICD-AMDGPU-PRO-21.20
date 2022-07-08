@@ -83,7 +83,7 @@ package_ocl-icd-amdgpu-pro-21.20(){
 package_lib32-ocl-icd-amdgpu-pro-21.20(){
   pkgdesc='AMD OpenCL ICD Loader library. Version 21.20 (32-bit)'
   arch=(i686 x86_64)
-  depends=(lib32-glibc ocl-icd-amdgpu-pro=${major}_${minor}-${pkgrel})
+  depends=(lib32-glibc ocl-icd-amdgpu-pro-21.20=${major}_${minor}-${pkgrel})
   optdepends=('lib32-opencl-driver: packaged opencl driver')
   conflicts=(lib32-libcl lib32-ocl-icd lib32-ocl-icd-git lib32-khronos-ocl-icd lib32-khronos-ocl-icd-git)
   replaces=(lib32-libcl)
